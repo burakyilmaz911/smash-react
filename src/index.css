@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+.navbar{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+a {
+  padding: 0px 20px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;
+}
+
+.fighters{
+  display: grid;  
+  grid-auto-columns: 1fr;
+  justify-content: space-between;
+}
+
+.fighters p{
+  font-size: 12px;
+  display: inline-block;
+  font-style: italic;
+}
+
+.fighters h2{
+  font-weight: bold;
+  font-size: 30px;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-style: solid;
+}
+
+.fighters button{
+  padding: 0px 20px;
+  margin: 0px 20px;
+}
